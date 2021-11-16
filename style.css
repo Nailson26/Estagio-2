@@ -1,0 +1,65 @@
+/* home */
+#secao1{
+    /* background: #29A63C; */
+    background: #9EC489;
+    color: white;
+}
+
+#secao2{
+    background: #FBFAFF;
+}
+
+#nav{
+    background: #98bd84;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a{
+    margin: 5px 15px;
+}
+/* home */
+
+/* Login */
+.personal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FBFAFF;
+}
+
+.first-content{
+    display: flex;
+}
+
+.second-content{
+    position: absolute;
+    display: none;
+}
+
+.first-column{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Login */
